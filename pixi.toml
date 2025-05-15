@@ -21,3 +21,11 @@ mkl-devel = ">=2024.2.2,<2025"
 mkl-static = ">=2024.2.2,<2025"
 mkl-include = ">=2024.2.2,<2025"
 mopac = ">=23.1.2,<24"
+
+[feature.xtb.dependencies]
+python = "*"
+xtb = "*"
+
+[environments]
+xtb = ["xtb", "default"]
+
